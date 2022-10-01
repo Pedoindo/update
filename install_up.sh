@@ -16,7 +16,7 @@ sleep 2
 echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Downloading New Script"
 # wget -q -O /usr/bin/FILENAME "https://raw.githubusercontent.com/kamunikan/update/main/update_file/FILENAME" && chmod +x /usr/bin/FILENAME
 
-wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/Pedoindo/update/main/update_file/menu.sh" && chmod +x /usr/bin/menu
+wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/Pedoindo/update/main/update_files/menu.sh" && chmod +x /usr/bin/menu
 #wget -q -O /usr/bin/menu-ss "https://raw.githubusercontent.com/Pedoindo/multimulti/main/update/menu-ss.sh" && chmod +x /usr/bin/menu-ss
 #wget -q -O /usr/bin/menu-vmess "https://raw.githubusercontent.com/Pedoindo/multimulti/main/update/menu-vmess.sh" && chmod +x /usr/bin/menu-vmess
 #wget -q -O /usr/bin/menu-vless "https://raw.githubusercontent.com/Pedoindo/multimulti/main/update/menu-vless.sh" && chmod +x /usr/bin/menu-vless
@@ -38,6 +38,6 @@ wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/Pedoindo/update/main
 
 sleep 2
 echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Download Changelog File"
-wget -q -O /root/clog.txt "https://raw.githubusercontent.com/Pedoindo/update/main/update_file/clog.txt" && chmod +x /root/clog.txt
+wget -q -O /root/clog.txt "https://raw.githubusercontent.com/Pedoindo/update/main/update_files/clog.txt" && chmod +x /root/clog.txt
 echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Read Clog? ./root/clog.txt"
 sleep 2
